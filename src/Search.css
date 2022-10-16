@@ -1,0 +1,12 @@
+.searchbar {
+  margin: 10px 10px 10px 40px;
+  padding: 2px;
+}
+.showCurrentButton {
+  border-width: 2px;
+  border-color: #a6d1e6;
+  padding: 4px 8px 3px 8px;
+}
+.searchCityInput {
+  padding: 3px 68px 4px 15px;
+}

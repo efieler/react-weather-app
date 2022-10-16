@@ -1,15 +1,20 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Header from "./Header";
+import CurrentWeather from "./CurrentWeather";
+import Forecast from "./Forecast";
+import Search from "./Search";
+import Footer from "./Footer";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1> Elizabeth's React Weather App </h1>
-      </header>
+      <div className="container-fluid">
+        <Header />
+        <CurrentWeather />
+        <Forecast />
+        <Search />
+        <Footer />
+      </div>
     </div>
   );
 }
-
-export default App;

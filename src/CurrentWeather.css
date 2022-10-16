@@ -1,0 +1,36 @@
+h2 {
+  font-size: 37px;
+  padding-top: 3px;
+  font-family: "Chau Philomene One", sans-serif;
+  padding-bottom: 2px;
+}
+h3 {
+  font-size: 40px;
+  padding-top: 10px;
+  margin-bottom: 2px;
+}
+h4 {
+  font-size: 14 px;
+}
+.row {
+  font-family: "Chau Philomene One", sans-serif;
+}
+.today-emoji {
+  resize: none;
+  font-size: 40px;
+  padding-bottom: 1px;
+  margin: 2px 0px;
+  display: inline !important;
+  text-align: left;
+  padding-left: 50px;
+}
+.currentday {
+  font-size: 22px;
+  text-align: left;
+}
+.todayinfo {
+  padding-left: 60px;
+  padding-top: 5px;
+  text-transform: capitalize;
+  text-align: left;
+}
