@@ -8,7 +8,8 @@ export default function Footer() {
         {" "}
         Open Source Code{" "}
       </a>
-      by Elizabeth Fieler
+      by
+      <a href="https://www.lizzybel.com"> Elizabeth Fieler</a>
     </p>
   );
 }
