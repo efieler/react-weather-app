@@ -15,13 +15,13 @@ export default function CurrentWeather() {
   return (
     <div className="row">
       <div className="col-5">
-        <h2> {WeatherData.city} </h2>
+        <h2 className="current-city"> {WeatherData.city} </h2>
       </div>
       <div className="col-7 todayinfo">
         <h4 className="currentday"> {WeatherData.timestamp}</h4>
       </div>
       <div className="col-5">
-        <h3>
+        <h3 className="current-temp">
           <span>{WeatherData.temperature} </span>
           <span className="tempUnit">{WeatherData.unit} </span>
         </h3>

@@ -12,7 +12,7 @@ export default function Search() {
         autoFocus="on"
         id="search-city-input"
       />
-      <button type="submit" className="btn btn-light showCurrentButton">
+      <button type="submit" className="btn btn-light show-current-button">
         🔎{" "}
       </button>
     </form>
