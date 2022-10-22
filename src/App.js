@@ -10,7 +10,7 @@ export default function App() {
     <div className="App">
       <div className="container-fluid">
         <Header />
-        <CurrentWeather />
+        <CurrentWeather defaultCity="Dallas" />
         <Forecast />
         <Search />
         <Footer />
