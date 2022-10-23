@@ -17,7 +17,6 @@ export default function CurrentWeather(props) {
       description: response.data.weather[0].description,
       windspeed: response.data.wind.speed,
       icon: response.data.weather[0].icon,
-      unit: "C°",
     });
   }
 
