@@ -27,9 +27,9 @@ export default function WeatherInfo(props) {
           <br />
           <span> Windspeed: {Math.round(props.data.windspeed)} mph </span>
           <br />
-          <div className="today-emoji col-2">❤️</div>
-          <div className="today-emoji col-3"> 🤓</div>
         </div>
+        <div className="today-emoji col-2">❤️</div>
+        <div className="today-emoji col-3"> 🤓</div>
       </div>
     </div>
   );
