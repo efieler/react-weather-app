@@ -1,5 +1,7 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
+import WeatherIcon from "./WeatherIcon";
+import WeatherEmoji from "./WeatherEmoji";
 
 export default function WeatherInfo(props) {
   return (
@@ -28,8 +30,12 @@ export default function WeatherInfo(props) {
           <span> Windspeed: {Math.round(props.data.windspeed)} mph </span>
           <br />
         </div>
-        <div className="today-emoji col-2">❤️</div>
-        <div className="today-emoji col-3"> 🤓</div>
+        <div className="today-emoji col-2">
+          <WeatherIcon code={props.data.icon} />
+        </div>
+        <div className="today-emoji col-3">
+          <WeatherEmoji code={props.data.icon} />
+        </div>
       </div>
     </div>
   );
