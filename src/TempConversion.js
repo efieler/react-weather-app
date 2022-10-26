@@ -25,7 +25,7 @@ export default function TempConversion(props) {
       </div>
     );
   } else {
-    let fahrenheit = (props.celcius * 9) / 5 + 32;
+    let fahrenheit = (props.celsius * 9) / 5 + 32;
     return (
       <div className="TemperatureUnit">
         <div className="Temperature">{Math.round(fahrenheit)}</div>
