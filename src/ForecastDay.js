@@ -28,7 +28,7 @@ export default function ForecastDay(props) {
     return days[day];
   }
   return (
-    <div>
+    <div className="fivedays col-2">
       {day()}
       <ul className="card list-group list-group-flush">
         <li className="list-group-item fivedayemoji">
