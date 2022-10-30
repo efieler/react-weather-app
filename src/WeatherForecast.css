@@ -26,5 +26,16 @@
   margin-bottom: 2px;
   border-color: #7f5283;
   border-width: 3px;
-  width: 80px;
+  width: 70px;
+}
+.forecast {
+  padding: 1px;
+  width: 88 px;
+  margin: 1px;
+  margin-left: 0px;
+  color: #7f5283;
+  margin-bottom: 2px;
+  border-color: #7f5283;
+  border-width: 2px;
+  text-align: center;
 }
