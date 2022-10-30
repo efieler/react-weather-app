@@ -1,7 +1,6 @@
 import "./App.css";
 import Header from "./Header";
 import CurrentWeather from "./CurrentWeather";
-import Forecast from "./Forecast";
 import Footer from "./Footer";
 
 export default function App() {
@@ -10,7 +9,6 @@ export default function App() {
       <div className="container-fluid">
         <Header />
         <CurrentWeather defaultCity="Dallas" />
-        <Forecast />
         <Footer />
       </div>
     </div>
