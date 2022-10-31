@@ -29,7 +29,7 @@ export default function ForecastDay(props) {
   }
   return (
     <div className="fivedays col-2">
-      {day()}
+      <div className="weekdays">{day()}</div>
       <ul className="card list-group list-group-flush">
         <li className="list-group-item fivedayemoji">
           <WeatherIcon code={props.data.weather[0].icon} />

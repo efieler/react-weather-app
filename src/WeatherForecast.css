@@ -1,10 +1,14 @@
-.fivedays {
+.weekdays {
   text-align: center;
+  text-indent: 8px;
+}
+.fivedays {
   margin-bottom: 5px;
   padding: 2px;
-  margin: 6px;
+  margin: 5px;
   font-size: 14px;
   color: #7f5283;
+  text-align: center;
 }
 .fivedayemoji {
   font-size: 25px;
@@ -19,23 +23,26 @@
   text-align: center;
 }
 .card {
-  padding: 3px;
+  padding: 1px;
   margin: 1px;
   color: 7F5283;
   background-color: #a6d1e6;
   margin-bottom: 2px;
   border-color: #7f5283;
-  border-width: 3px;
+  border-width: px;
   width: 70px;
+  text-align: left;
+  border-radius: 5px;
 }
 .forecast {
   padding: 1px;
   width: 88 px;
-  margin: 1px;
+  margin: 10px;
   margin-left: 0px;
   color: #7f5283;
   margin-bottom: 2px;
   border-color: #7f5283;
   border-width: 2px;
   text-align: center;
+  border-radius: 10px;
 }
